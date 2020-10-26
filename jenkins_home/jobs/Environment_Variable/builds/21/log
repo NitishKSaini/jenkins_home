@@ -1,0 +1,15 @@
+Started by user [8mha:////4DnlgeG070VO06cr7LfQ9cZT3D6pnXxr/DcCrzu7cuOFAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYe/dLi1CL9vMySzOIMABwO8pfBAAAA[0mNitish Saini
+Running as SYSTEM
+Building in workspace /var/jenkins_home/jobs/Environment_Variable/workspace
+[workspace] $ /bin/sh -xe /tmp/jenkins9140770800996593153.sh
++ echo Build No. is 21
+Build No. is 21
++ echo my name is Nitish
+my name is Nitish
++ echo Build Id is 21
+Build Id is 21
++ Hello
+/tmp/jenkins9140770800996593153.sh: 5: /tmp/jenkins9140770800996593153.sh: Hello: not found
+Build step 'Execute shell' marked build as failure
+Sending e-mails to: nitishks91@gmail.com nitishkumarsaini91@gmail.com nitishsaini.en@gmail.com
+Finished: FAILURE

@@ -1,0 +1,21 @@
+Started by user [8mha:////4DnlgeG070VO06cr7LfQ9cZT3D6pnXxr/DcCrzu7cuOFAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYe/dLi1CL9vMySzOIMABwO8pfBAAAA[0mNitish Saini
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/First-Project
+[8mha:////4C1GIYtcGmzVci4JSaN7ZiQfL0vXJGzyBfLwlaZV520LAAAAqx+LCAAAAAAAAP9b85aBtbiIQSujNKU4P0+vIKc0PTOvWC8xrzgzOT8nv0gvMbkkEyjhCKb88ktSdwVsu2efuqidiYHRh4EDIu2ZUsIg5JOVWJaon5OYl64fXFKUmZduXVHEIAU1ODk/rzg/J1XPGUKDDGKAAEYmBoaKghIGFQuzNDMjYzMT3WQjc1Ndk6REC92kFAszXfMUM0PjFHMz00QTMwA0qgw+rwAAAA==[0m[First-Project] $ ansible-playbook /var/jenkins_home/ansible/playbook.yml -i /var/jenkins_home/ansible/inventory -f 5 -e "MSG='Hello Dalta...'"
+/usr/local/lib/python2.7/dist-packages/cryptography/__init__.py:39: CryptographyDeprecationWarning: Python 2 is no longer supported by the Python core team. Support for it is now deprecated in cryptography, and will be removed in a future release.
+  CryptographyDeprecationWarning,
+
+PLAY [jenkins-remote] **********************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [test][0m
+
+TASK [debug] *******************************************************************
+[0;32mok: [test] => {[0m
+[0;32m    "msg": "echo Hello Dalta... > /tmp/testfile"[0m
+[0;32m}[0m
+
+PLAY RECAP *********************************************************************
+[0;32mtest[0m                       : [0;32mok=2   [0m changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+Finished: SUCCESS

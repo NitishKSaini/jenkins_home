@@ -1,0 +1,21 @@
+Started by user [8mha:////4DnlgeG070VO06cr7LfQ9cZT3D6pnXxr/DcCrzu7cuOFAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYe/dLi1CL9vMySzOIMABwO8pfBAAAA[0mNitish Saini
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/mysql-database
+[SSH] script:
+AWS_SECRET_ACCESS_KEY=**********
+BUCKET="jenkins-bucket-for-demo"
+TESTDB="testdb"
+DATABASE-DB=**********
+DB_HOST="db_host"
+
+./tmp/mysql.sh $DB_HOST $DATABASE-DB  $TESTDB  $AWS_SECRET_ACCESS_KEY $BUCKET
+
+[SSH] executing...
+bash: line 3: DATABASE-DB=****: command not found
+bash: line 6: ./tmp/mysql.sh: No such file or directory
+
+[SSH] completed
+[SSH] exit-status: 127
+
+Build step 'Execute shell script on remote host using ssh' marked build as failure
+Finished: FAILURE

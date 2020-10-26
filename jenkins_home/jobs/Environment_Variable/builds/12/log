@@ -1,0 +1,9 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/jenkins_home/jobs/Environment_Variable/workspace
+[workspace] $ /bin/sh -xe /tmp/jenkins8696462202024773412.sh
++ echo Build No. is 12
+Build No. is 12
++ echo my name is Nitish
+my name is Nitish
+Finished: SUCCESS

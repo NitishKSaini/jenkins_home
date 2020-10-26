@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-08-01 21:28:00.303 UTC</timestamp>
+  <md5sum>40f64971f6319a61f798ba04068a068d</md5sum>
+  <fileName>Credential id=TEST name=TEST</fileName>
+  <usages>
+    <entry>
+      <string>pipeline-project</string>
+      <ranges>9</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

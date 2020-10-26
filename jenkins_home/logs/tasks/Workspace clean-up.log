@@ -1,0 +1,14 @@
+Started at Fri Jul 31 17:54:04 UTC 2020
+Checking Environment_Variable
+Checking First-Project
+Checking jenkins-ansible
+Checking Job-DSL
+Checking job_ansible-jenkins (dsl)
+Checking job_dsl_Created
+Checking job_dsl_example
+Checking maven_dsl
+Checking mysql-database
+Checking sample-maven-app
+Checking ssh-task
+Checking web-server(php)
+Finished at Fri Jul 31 17:54:04 UTC 2020. 144ms

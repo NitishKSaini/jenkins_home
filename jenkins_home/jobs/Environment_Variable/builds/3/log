@@ -1,0 +1,8 @@
+Started by user [8mha:////4DnlgeG070VO06cr7LfQ9cZT3D6pnXxr/DcCrzu7cuOFAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYe/dLi1CL9vMySzOIMABwO8pfBAAAA[0mNitish Saini
+Running as SYSTEM
+Building in workspace /var/jenkins_home/jobs/Environment_Variable/workspace
+[workspace] $ /bin/sh -xe /tmp/jenkins6774098076972344379.sh
++ Build No. is 3
+/tmp/jenkins6774098076972344379.sh: 2: /tmp/jenkins6774098076972344379.sh: Build: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

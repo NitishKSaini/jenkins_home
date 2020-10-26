@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-07-09 20:37:30.201 UTC</timestamp>
+  <md5sum>9449e502f6a32ed203a4f259f681f83a</md5sum>
+  <fileName>Credential id=DB-PASSWORD name=DB-PASSWORD</fileName>
+  <usages>
+    <entry>
+      <string>mysql-database</string>
+      <ranges>8-10</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

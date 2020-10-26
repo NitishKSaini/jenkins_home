@@ -1,0 +1,11 @@
+Started on Jul 31, 2020 8:58:46 PM
+Started by event from 140.82.115.151 ⇒ http://e29f4c6c90a5.ngrok.io:8080//github-webhook/ on Fri Jul 31 20:58:42 UTC 2020
+Using strategy: Default
+[poll] Last Built Revision: Revision 7af6f7eeb69338e6f87d2b8d13453ffd0690ddf0 (refs/remotes/origin/master)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h -- https://github.com/NitishKSaini/test1 # timeout=10
+Found 1 remote heads on https://github.com/NitishKSaini/test1
+[poll] Latest remote head revision on refs/heads/master is: 9bc83feff497a33185aaaf5e0e52ccd59da87124
+Done. Took 5.7 sec
+Changes found

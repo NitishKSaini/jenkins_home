@@ -1,0 +1,18 @@
+Started by GitHub push by NitishKSaini
+Running as SYSTEM
+Building in workspace /var/jenkins_home/jobs/github-test/workspace
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/NitishKSaini/test1 # timeout=10
+Fetching upstream changes from https://github.com/NitishKSaini/test1
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/NitishKSaini/test1 +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 7af6f7eeb69338e6f87d2b8d13453ffd0690ddf0 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7af6f7eeb69338e6f87d2b8d13453ffd0690ddf0 # timeout=10
+Commit message: "Line"
+ > git rev-list --no-walk 0926ed065d9c06b0f805372b55ba0ce947ec18ad # timeout=10
+Finished: SUCCESS

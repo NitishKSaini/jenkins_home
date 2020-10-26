@@ -1,0 +1,6 @@
+-
+  name: jenkins-remote
+  hosts: test
+  tasks: 
+  - debug:
+      msg: echo {{MSG}} > /tmp/testfile

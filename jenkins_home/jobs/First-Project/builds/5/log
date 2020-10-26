@@ -1,0 +1,35 @@
+Started by user [8mha:////4DnlgeG070VO06cr7LfQ9cZT3D6pnXxr/DcCrzu7cuOFAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYe/dLi1CL9vMySzOIMABwO8pfBAAAA[0mNitish Saini
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/First-Project
+[8mha:////4O0KtZ6qUrhHfxYdddL7paFXJa8Wow1CkX3weOigfQ2lAAAAqx+LCAAAAAAAAP9b85aBtbiIQSujNKU4P0+vIKc0PTOvWC8xrzgzOT8nv0gvMbkkEyjhCKb88ktSdwVsu2efuqidiYHRh4EDIu2ZUsIg5JOVWJaon5OYl64fXFKUmZduXVHEIAU1ODk/rzg/J1XPGUKDDGKAAEYmBoaKghIGFUNTE4skM8tU3aRUIyNdEwuzJF1LQ3MDXdMks2RjUxPDtCRjcwBwt20GrwAAAA==[0m[First-Project] $ ansible-playbook /var/jenkins_home/ansible/playbook.yml -i /var/jenkins_home/ansible/inventory -f 5 -e "Hello Dalta=MSG"
+/usr/local/lib/python2.7/dist-packages/cryptography/__init__.py:39: CryptographyDeprecationWarning: Python 2 is no longer supported by the Python core team. Support for it is now deprecated in cryptography, and will be removed in a future release.
+  CryptographyDeprecationWarning,
+
+PLAY [jenkins-remote] **********************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [test][0m
+
+TASK [debug] *******************************************************************
+[0;31mfatal: [test]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'MSG' is undefined\n\nThe error appears to be in '/var/jenkins_home/ansible/playbook.yml': line 5, column 5, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  tasks:\n  - debug:\n    ^ here\n"}[0m
+
+PLAY RECAP *********************************************************************
+[0;31mtest[0m                       : [0;32mok=1   [0m changed=0    unreachable=0    [0;31mfailed=1   [0m skipped=0    rescued=0    ignored=0   
+
+FATAL: command execution failed
+hudson.AbortException: Ansible playbook execution failed
+	at org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder.perform(AnsiblePlaybookBuilder.java:262)
+	at org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder.perform(AnsiblePlaybookBuilder.java:232)
+	at jenkins.tasks.SimpleBuildStep.perform(SimpleBuildStep.java:112)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:78)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:741)
+	at hudson.model.Build$BuildExecution.build(Build.java:206)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:163)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:504)
+	at hudson.model.Run.execute(Run.java:1880)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:428)
+ERROR: Ansible playbook execution failed
+Finished: FAILURE
